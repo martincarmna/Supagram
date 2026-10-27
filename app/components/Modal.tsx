@@ -12,7 +12,7 @@ export default function Modal({
 }) {
 
   const username = post.profile?.username || 'default user';
-  const avatarUrl = post.profile?.avatar_url || "/user.webp";
+  const avatarUrl = post.profile?.avatar_url || "/image1.png";
 
   console.log(avatarUrl)
   
